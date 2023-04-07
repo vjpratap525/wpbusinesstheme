@@ -1,0 +1,425 @@
+/* @media Responsive Start */
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    [class*="shape"] {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+	.px-md-20 {
+	    padding-right: 11.8rem;
+	    padding-left: 11.8rem;
+	}
+	.px-md-7 {
+	    padding-right: 7.5rem;
+	    padding-left: 7.5rem;
+	}
+	.comments-area {}
+}
+
+@media (min-width: 992px) {
+    .header-transparent .main-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border-top: 0;
+        margin: 0 auto;
+        z-index: 99;
+    }
+    .header-transparent .main-header,
+    .header-transparent .main-navigation:not(.is-sticky-menu) {
+    	background: none;
+    }
+    body.admin-bar.header-transparent .main-header {
+        top: 32px;
+    }
+    .header-transparent .header-search-popup {
+    	top: 0;
+    	z-index: 3;
+    }
+    .header-transparent .header-search-popup form .header-search-field {
+    	line-height: 24px;
+    }
+    .header-transparent .header-search-popup .search-submit {
+	    width: 35px;
+	    height: 35px;
+	}
+	.header-transparent .header-search-popup .header-search-close {
+	    width: 44px;
+	    height: 44px;
+	}
+    .header-transparent .header-search-flex {
+	    min-height: 57px;
+	}
+	.header-transparent .main-slider div.main-content {
+	    margin-top: 14rem;
+	}
+	.header-transparent .breadcrumb-content {
+	    padding-top: 280px;
+	    padding-bottom: 90px;
+	}
+	.info-section {
+	    margin-top: -120px;
+	}
+	.info-wrapper {
+	    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 0.12);
+	}
+	.info-section [class*='col-']:not(:last-child) .contact-area:after {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    right: 0;
+	    height: 60%;
+	    margin: auto;
+	    border-right: 1px solid var(--bs-gray);
+	}
+	.team-img {
+	    padding-bottom: 20%;
+	}
+	.team-info .widget.widget_social_widget li:nth-child(4n+4) {
+	    margin-right: 0;
+	}
+	.team-info .widget.widget_social_widget li:nth-child(n+5) {
+	    margin-top: 10px;
+	}
+	.steps-wrapper .col:nth-child(even) {
+	    margin-top: 8.25rem;
+	}
+	.author-details .author-widget {
+	    float: right;
+	}
+	.px-lg-20 {
+	    padding-right: 11.8rem;
+	    padding-left: 11.8rem;
+	}
+	.px-lg-7 {
+	    padding-right: 7.5rem;
+	    padding-left: 7.5rem;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.projects-caption {
+	    padding: 0.75rem;
+	}
+	.team-heading,
+	.team-info .widget {
+	    padding: 1rem;
+	}
+	.main-menu-right > ul {
+	    padding-left: 0.5rem;
+	}
+	.main-menu-right > ul > li {
+	    margin-right: 0.625rem;
+	}
+	.main-navigation-area .main-menu-right > ul li:last-child {
+	    padding-left: 0.625rem;
+	}
+	.main-navigation-area .contact-icon {
+	    margin-right: 0.5rem;
+	    width: 35px;
+	    height: 35px;
+	    font-size: 1.875rem;
+	}
+	.main-navigation-area .contact-info span.title {
+	    font-size: 0.75rem;
+	}
+	.main-navigation-area .contact-info span.text {
+	    font-size: 1.25rem;
+	}
+	.main-navbar .main-menu > li.menu-item > a {
+	    padding: 0 0.4375rem;
+	}
+	.footer .main-menu > li > a, .main-navbar .main-menu > li > a {
+	    font-size: 0.9375rem;
+	}
+	.post-image-text {
+	    left: 20px;
+	    right: 20px;
+	    bottom: 25px;
+	    font-size: 17px;
+	}
+	.post-meta:not(.post-img-meta):not(.post-tags) {
+		justify-content: center;
+	}
+	.post-meta:not(.post-img-meta):not(.post-tags) span:not(:first-child) {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1124px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1111px) {
+	
+}
+
+@media (max-width: 991px) {
+	.main-slider div.main-content {
+	    margin-bottom: 0;
+	    margin-top: 0;
+	}
+	.main-content h6 {
+	    font-size: 1.375rem;
+	}
+    .main-content h1 {
+	    font-size: 1.75rem;
+	}
+	.main-content p {
+	    font-size: 0.875rem;
+	}
+	.info-section .widget-contact {
+	    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 0.12);
+	}
+	.comment-list .children {
+	    margin-left: 0;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+	
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.projects-caption {
+		padding: 10px;
+	}
+	.projects-item .projects-heading {
+		padding: 13px;
+	}
+	.projects-item .projects-heading p {
+	    font-size: 0.9rem;
+	}
+	.projects-item .projects-heading strong {
+	    font-size: 0.88rem;
+	}
+	.widget_social_widget li:not(:last-child) {
+	    margin-right: 2px;
+	}
+	.team-info .widget.widget_social_widget li:nth-child(n+8) {
+	    margin-top: 10px;
+	}
+	.team-info .widget.widget_social_widget li:nth-child(7n+7) {
+	    margin-right: 0;
+	}
+	.pricing-item h3:after {
+	    bottom: -38.5%;
+	}
+}
+
+@media (max-width: 767px) {
+	.team-img {
+	    padding-bottom: 15%;
+	}
+	[class*="shape"] {
+        display: none;
+    }
+	.header-above-bar .widget-left,
+	.header-above-bar .widget-right,
+	.header-above-bar .header-widget .widget {
+	    display: block;
+	}
+	.header-above-bar {
+		width: 100%;
+	}
+	.main-content h6,
+	.main-content h1,
+	.main-content p {
+        margin-bottom: 0.625rem;
+	}
+	.main-content .btn {
+	    padding: 0.375rem 0.875rem;
+	}
+	.main-content .btn.btn-play {
+		padding: 0;
+	}
+	.cta-wrapper {
+		justify-content: center;
+	}
+	.footer-above-carousel .widget {
+		padding-right: 12px;
+	}
+
+    .timeline-content {
+        transform: translateY(0%);
+    }
+    .timeline::after {
+        margin: 0;
+        left: -2%;
+    }
+    .timeline-item:nth-child(odd) strong,
+    .timeline-item:nth-child(odd) p {
+        text-align: left
+    }
+    .timeline-item:nth-child(even) {
+        flex-direction: row;
+    }
+    .timeline::before {
+        left: 6.25%;
+    }
+    .timeline-circle {
+        position: absolute;
+        left: 0;
+    }
+    .timeline-item:nth-child(odd) .timeline-content {
+        border-left: 5px solid var(--bs-primary);
+        border-right: 0;
+    }
+    .timeline-item:nth-child(even) .timeline-date {
+        text-align: left;
+    }
+    .pricing-tab a {
+	    padding: 1.125rem 1rem;
+	}
+    .pricing-item h3:after {
+	    bottom: -40%;
+	}
+}
+
+@media (max-width: 575px) {
+    .timeline::before {
+        left: 6.25%;
+    }
+    .timeline-circle {
+        left: -4.1%;
+    }
+    .timeline::after {
+        left: 0;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 16px;
+    }
+    .pricing-item h3:after {
+	    bottom: -41%;
+	}
+}
+
+@media (max-width: 540px) {
+	.main-content h6 {
+	    padding: 0.3125rem 0.625rem;
+	    font-size: 0.85rem;
+	    margin-bottom: 0.3125rem;
+	}
+	.main-content h1 {
+	    font-size: 1.25rem;
+	    margin-bottom: 0.3125rem;
+	}
+	.main-content p {
+	    font-size: 0.8125rem;
+	    margin-bottom: 0.3125rem;
+	    max-width: 275px;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+	.main-slider .text-center p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-slider .text-right p {
+        margin-left: auto;
+    }
+	.main-content .btn {
+	    font-size: 0.68rem;
+	    padding: 0.25rem 0.45rem;
+	}
+	.btn.btn-play span.btn {
+	    width: 2rem;
+	    height: 2rem;
+	    line-height: 1.95rem;
+	}
+	.main-content .btn:not(:last-child) {
+	    margin-right: 0;
+	}
+	.check-list li {
+	    flex: 100%;
+	}
+	.comment-list .children {
+	    margin-left: .5rem;
+	}
+	.comment-list .children .comment-body {
+	    padding: 16px;
+	}
+}
+
+@media (max-width: 500px) {
+	.footer-above-carousel .widget {
+		justify-content: center;
+	}
+	.timeline::after {
+        left: -3px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 14px;
+    }
+    .timeline-circle {
+	    left: -4.5%;
+	}
+	.comments-area .comment-body {
+	    border-radius: 10px;
+	}
+}
+
+@media (max-width: 436px) {
+	.post-image-text {
+	    font-size: 1rem;
+	    line-height: 1.85;
+	}
+	.cta-btn-wrap .btn {
+	    padding: 0.6rem 1.1rem;
+	}
+	.cta-wrapper .read-link {
+        margin-left: 6px;
+	}
+	.comments-area .comment-meta .comment-author img {
+	    position: unset;
+	    margin-right: 0.5rem;
+	    display: inline-block;
+	}
+	.comments-area .comment-body {
+	    padding: 25px 22px;
+	}
+	.comment-meta .comment-metadata {
+	    margin: 0;
+	    white-space: nowrap;
+	}
+	.comment-metadata .edit-link {
+	    margin-left: 0;
+	}
+	.comment-meta .comment-metadata time {
+	    font-size: 14px;
+	}
+}
+
+@media (max-width: 374px) {
+	.cta-btn-wrap {
+	    flex-direction: column;
+	    margin-top: 5px;
+	}
+	.cta-wrapper .read-link {
+        margin-top: 10px;
+	    margin-left: 0;
+	}
+}
+
+@media (max-width: 330px) {
+    .main-mobile-menu .header-wrap-right li {
+        margin-right: 6px;
+    }
+    .mobile-logo .logo {
+        max-width: 168px;
+    }
+}
+
+/* @media Responsive End */
