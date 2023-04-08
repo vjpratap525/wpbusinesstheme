@@ -1787,7 +1787,10 @@ input[type="reset"]:focus, input[type="submit"]:focus {
 }
 
 .team-info .widget.widget_social_widget li a {
-    background-color: var(--bs-white);
+    /* background-color: var(--bs-white); */
+    border: 1px solid var(--bs-white) !important;
+    border-radius: 50%;
+     color: var(--bs-white);
 }
 
 .team-info .widget_social_widget li a:hover,
@@ -1826,6 +1829,7 @@ input[type="reset"]:focus, input[type="submit"]:focus {
     transform: translateY(0);
     -webkit-transition: .5s cubic-bezier(.075,.82,.165,1) .3s;
     transition: .5s cubic-bezier(.075,.82,.165,1) .3s;
+    background-color: var(--bs-primary);
     
 }
 
@@ -1839,6 +1843,7 @@ input[type="reset"]:focus, input[type="submit"]:focus {
     margin-bottom: 0;
     color: var(--bs-primary);
     font-weight: 600;
+    font-size: 18px;
 }
 
 /*===== // =====*/
@@ -2025,6 +2030,7 @@ input[type="reset"]:focus, input[type="submit"]:focus {
     background-color: var(--bs-white);
     z-index: 0;
     box-shadow: 0px 0px 10.44px 1.56px rgba(33, 33, 33, 0.23);
+    border: 1px solid var(--bs-gray);
 }
 
 .pricing-item h3 {
@@ -2144,9 +2150,9 @@ input[type="reset"]:focus, input[type="submit"]:focus {
 
 .pricing-item li {
     display: block;
-    line-height: 44px;
+    line-height: 30px;
     font-weight: 500;
-    border-bottom: 1px solid var(--bs-gray);
+    /* border-bottom: 1px solid var(--bs-gray); */
 }
 
 .pricing-item li:last-child {
@@ -2176,19 +2182,19 @@ input[type="reset"]:focus, input[type="submit"]:focus {
 .recommended.pricing-item h3,
 .recommended.pricing-item .pricing-icon,
 .recommended.pricing-item a.btn.btn-secondary {
-    background-color: var(--bs-primary);
+    background-color: var(--bs-white);
 }
 
 .recommended.pricing-item a.btn.btn-secondary:hover,
 .recommended.pricing-item a.btn.btn-secondary:focus {
-    background-color: var(--bs-secondary);
+    background-color: var(--bs-primary);
 }
 
 .recommended-badge {
     position: absolute;
-    top: -8px;
+    /* top: -8px; */
     right: 20px;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -2198,7 +2204,7 @@ input[type="reset"]:focus, input[type="submit"]:focus {
     color: var(--bs-white);
     background-color: var(--bs-red);
     padding: 0 1.25rem;
-    border-radius: 0 0 50px 50px;
+    /* border-radius: 0 0 50px 50px; */
     z-index: 1;
 }
 

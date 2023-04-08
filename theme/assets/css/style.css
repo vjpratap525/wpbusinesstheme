@@ -503,7 +503,7 @@ aside#widget-text a {
 }
 
 .Features-style .Features-service-icon .Features-service-icon-wrapper {
-    color: var(--bs-primary);
+    /* color: var(--bs-primary); */
     font-size: 3rem;
 }
 
@@ -525,9 +525,9 @@ aside#widget-text a {
     border: 15px solid var(--bs-gray-light);
 }
 
-.Features-style a {
+/* .Features-style a {
     color: var(--bs-primary);
-}
+} */
 
 .Features-style a:hover {
     color: var(--bs-white);
@@ -576,7 +576,7 @@ aside#widget-text a {
 }
 
 .team-img {
-    padding-bottom: 20%;
+    padding-bottom: 0 !important ;
 }
 
 .projects-thumbnail {
@@ -589,29 +589,253 @@ aside#widget-text a {
     cursor: pointer;
 }
 
-.projects-team-icon{
+.projects-team-icon {
     text-align: center;
-   
+
 }
-.projects-team-icon i{
+
+.projects-team-icon i {
     content: '';
     width: 55px;
- 
+
     background-color: var(--bs-primary);
     color: var(--bs-white);
     text-align: center;
     line-height: 55px;
     border-radius: 100%;
 }
-.projects-team-icon{
+
+.projects-team-icon {
     position: absolute;
     left: 25%;
     top: 35%;
 }
+
 .projects-heading {
     color: var(--bs-white);
 }
-.projects-heading h4{
+
+.projects-heading h4 {
     color: var(--bs-primary);
 }
+
 /* projects-section and */
+
+.home-sect-1 {
+    background-color: var(--bs-black);
+}
+
+.home-sect-1 .Appoint-wrapper {
+    padding: 55px 0;
+}
+
+/* .Appoint-section .Appoint-wrapper .Appoint-contant {
+    color: var(--bs-white);
+} */
+
+/* .Appoint-section .Appoint-wrapper .Appoint-contant i {
+    color: var(--bs-white);
+    font-size: 50px;
+} */
+
+.Appoint-section .Appoint-wrapper .Appoint-contant {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 22px;
+}
+
+.Appoint-section .Appoint-wrapper .Appoint-contant .Appoint-contant-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    font-size: 38px;
+    width: 42px;
+    height: 42px;
+    line-height: 1;
+    margin-right: 15px;
+    color: var(--bs-white);
+    /* -webkit-transition: var(--bs-transition); */
+    transition: var(--bs-transition);
+}
+
+.Appoint-section {
+    position: relative;
+}
+
+.Appoint-section .Appoint-wrapper .Appoint-left {
+    font-size: 28px;
+}
+
+.Appoint-section .Appoint-wrapper .Appoint-contant-corn {
+    font-size: 55px;
+    line-height: 2;
+    color: var(--bs-primary);
+}
+
+.Appoint-section .Appoint-wrapper .Appoint-contant-info {
+
+    display: inline-block;
+    text-align: left;
+    color: var(--bs-white);
+}
+
+.Appoint-contant-info .title {
+    display: block;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Appoint-contant-info .text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.9;
+    margin-bottom: 1px;
+}
+
+.pricing-item .pricing-box-rate {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 100px;
+    /* line-height: 87px;
+    font-size: 40px; */
+    color: var(--bs-dark);
+    background-color: var(--bs-white);
+    /* border: 8px solid var(--bs-white); */
+    border-radius: 10px;
+    margin-top: 75px;
+    box-shadow: 0px 0px 10.44px 1.56px rgba(33, 33, 33, 0.23);
+}
+
+.recommended.pricing-item a.btn.btn-light {
+    border-color: var(--bs-white);
+    background-color: var(--bs-white);
+    color: var(--bs-secondary);
+    box-shadow: 0px 0px 10.44px 1.56px rgba(33, 33, 33, 0.23);
+}
+
+.recommended.pricing-item a.btn.btn-light:hover {
+    border-color: var(--bs-primary);
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+    box-shadow: 0px 0px 10.44px 1.56px rgba(33, 33, 33, 0.23);
+}
+
+.recommended-sect {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    letter-spacing: 0.25px;
+    color: var(--bs-white);
+    background-color: var(--bs-red);
+    padding: 0 1.25rem;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Gallery section  start*/
+.Gallery-bg-image {
+    background: url(../images/gallery/Gallery-bg.png) center center fixed rgba(0, 0, 0, 0.6);
+  }
+
+  .Gallery-section {
+    background-color: #1f2020e0;
+    background-blend-mode: multiply;
+    background-size: cover;
+    position: relative;
+  }
+  .Gallery-item-img{
+    padding: 0 0px;
+  }
+
+
+.img-w100{
+    width: 100%;
+}
+
+  /* 
+Gallery section  end*/
+
+/* process section start */
+.process-bg-image {
+    background: url(../images/process/process-bg.png) center center fixed rgba(0, 0, 0,0.7);
+  
+}
+
+  .work-process {
+    /* background-color: #002a34; */
+    /* background-blend-mode: multiply; */
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    padding: 100px 0px 100px 0px;
+  }
+
+  
+.process-box:hover {
+    background: url(../images/process/progressimg.png)
+   
+}
+
+/* .process-box::before:hover {
+    display: block;
+} */
+.process-box::before {
+   
+    width: 250px;
+    height: 250px;
+    top: -17px !important;
+    left: -17px !important;
+    opacity: 1;
+    visibility: visible;
+    -webkit-animation: spinAround 9s linear infinite;
+    -moz-animation: spinAround 9s linear infinite;
+    animation: spinAround 9s linear infinite;
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    z-index: 0;
+    border-radius: 100%;
+    border: 4px dotted var(--bs-primary);
+    transition: .3s ease-in-out;
+    padding: 29px;
+  }
+
+
+  .process-box {
+    text-align: center;
+    max-width: 270px;
+    height: 270px;
+    background-color: var(--bs-primary);
+    /* border: 3px solid var(--bs-secondary); */
+    margin: 17px;
+      margin-right: 17px;
+    margin-right: 17px;
+    margin-right: 17px;
+    padding: 40px 40px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 100%;
+    transition: .3s ease-in-out;
+    margin-right: 29px;
+    position: relative;
+    display: inline-block;
+    color: var(--bs-white);
+  }
+  
+
+  /* process section  and*/
