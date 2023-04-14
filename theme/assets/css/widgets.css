@@ -946,7 +946,7 @@ td#today:after {
     margin: auto;
     width: 6px;
     height: 100%;
-    background-color: var(--bs-primary);
+    /* background-color: var(--bs-primary); */
     
 }
 
